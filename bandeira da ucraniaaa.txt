@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>BANDEIRA DA UCRÂNIA</title>
+  <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(#444, #111);
+      }
+      h1 {
+        line-height: 5vh;
+        color: #ccc;
+      }
+      .main {
+         width: 75vh;
+         height: 55vh;
+         text-align: center;
+      }
+      .bandeira {
+        width: 75vh;
+        height: 50vh;
+        background: linear-gradient(#0057BB 50%, #FFD700 50%);
+      }
+  </style>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css" media="all">
+</head>
+<body>
+   <main class="main">
+       <h1> Bandeira da Ucrânia</h1>
+       <div class="bandeira"></div>
+   </main>
+</body>
+</html>
